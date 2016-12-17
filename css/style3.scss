@@ -31,7 +31,7 @@
 }
 
 .dc-count-two {
-    padding: 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .ford {
@@ -76,7 +76,7 @@
 @media only screen and (min-width : 480px) {
     .ford {
         top: 40%; 
-        left: 35%; 
+        left: 40%; 
 	    position: absolute;
 	    color: white;
 	    font-family: OpenSans;
@@ -86,7 +86,7 @@
      
      .round {
 	    top: 50%; 
-	    left: 45%; 
+	    left: 47%; 
 	    position: absolute;
 	    width: 20px;
 	    height: 20px;
@@ -115,7 +115,7 @@
 
 @media only screen and (min-width : 992px) {
 	.dc-bg{
-		padding: 150px 0px;
+		padding: 15px 0px 15px 0px;
 	}	
     .dc-count-two {
 	    width: 100%;
