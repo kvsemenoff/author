@@ -12,13 +12,19 @@
 //==========forfree
 
 .dc-bg{
-	background-image: url("/img/dc-auto.jpg") no-repeat;
+	padding: 25px 0px;
+	background: url("../img/dc-auto.jpg") no-repeat top center;
 	width: 100%;
 }
 
 .dc-scenaries{
+
 	text-align: center;
 	h3{
+		font-family: "OpenSans-Bold";
+		color:#fff;
+	}
+	h4{
 		font-family: "OpenSans-ExtraBold";
 		color:#fff;
 	}
@@ -34,6 +40,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dc-bg{
+		padding: 150px 0px;
+	}	
 }
 
 @media only screen and (min-width : 1248px) {
