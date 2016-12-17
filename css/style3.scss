@@ -12,9 +12,10 @@
 //==========forfree
 
 .dc-bg{
-	padding: 25px 0px;
+	padding: 50px 0px 15px 0px;
 	background: url("../img/dc-auto.jpg") no-repeat top center;
 	width: 100%;
+	background-size: cover;
 }
 
 .dc-scenaries{
@@ -35,8 +36,8 @@
 }
 
 .ford {
-    top: 40%; 
-    left: 35%; 
+    top: 37%; 
+    left: 44%; 
     position: absolute;
     color: white;
     font-family: OpenSans;
@@ -46,17 +47,17 @@
 }
 
 .round {
-    top: 50%; 
+    top: 45%; 
     left: 45%; 
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 @media only screen and (min-width : 320px) {
     .ford {
         top: 40%; 
-        left: 35%; 
+        left: 44%; 
 	    position: absolute;
 	    color: white;
 	    font-family: OpenSans;
@@ -65,18 +66,18 @@
      }
 
      .round {
-	    top: 50%; 
-	    left: 45%; 
+	    top: 45%; 
+	    left: 42%; 
 	    position: absolute;
-	    width: 20px;
-	    height: 20px;
+	    width: 70px;
+	    height: 70px;
     }
 }
 
 @media only screen and (min-width : 480px) {
     .ford {
-        top: 40%; 
-        left: 40%; 
+        top: 36%; 
+        left: 42%; 
 	    position: absolute;
 	    color: white;
 	    font-family: OpenSans;
@@ -85,18 +86,18 @@
      }
      
      .round {
-	    top: 50%; 
-	    left: 47%; 
+	    top: 42%; 
+	    left: 40%; 
 	    position: absolute;
-	    width: 20px;
-	    height: 20px;
-    }
+	    width: 100px;
+	    height: 100px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
     .ford {
-        top: 40%; 
-        left: 40%; 
+        top: 30%; 
+        left: 43%; 
 	    position: absolute;
 	    color: white;
 	    font-family: OpenSans;
@@ -105,17 +106,18 @@
      }
 
      .round {
-	    top: 50%; 
-	    left: 45%; 
+	    top: 40%; 
+	    left: 40%; 
 	    position: absolute;
-	    width: 50px;
-	    height: 50px;
-    }
+	    width: 100px;
+	    height: 100px;
+	}
 }
 
 @media only screen and (min-width : 992px) {
 	.dc-bg{
-		padding: 15px 0px 15px 0px;
+		padding: 50px 0px 15px 0px;
+		background-size: cover;
 	}	
     .dc-count-two {
 	    width: 100%;
