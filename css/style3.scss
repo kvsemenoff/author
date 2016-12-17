@@ -37,8 +37,8 @@
 }
 
 .dc-ford {
-    top: 37%; 
-    left: 44%; 
+    top: 35%; 
+    left: 38%; 
     position: absolute;
     color: white;
     font-family: "OpenSans";
@@ -49,10 +49,16 @@
 
 .dc-round {
     top: 45%; 
-    left: 45%; 
+    left: 42%; 
     position: absolute;
     width: 50px;
     height: 50px;
+}
+
+.dc-play {
+    padding-left: 10%;
+    padding-right: 10%;    
+    margin: auto;
 }
 
 @media only screen and (min-width : 320px) {
@@ -78,7 +84,7 @@
 @media only screen and (min-width : 480px) {
     .dc-ford {
         top: 36%; 
-        left: 42%; 
+        left: 44%; 
 	    position: absolute;
 	    color: white;
 	    font-family: "OpenSans";
@@ -88,7 +94,7 @@
      
      .dc-round {
 	    top: 42%; 
-	    left: 40%; 
+	    left: 42%; 
 	    position: absolute;
 	    width: 100px;
 	    height: 100px;
@@ -126,7 +132,7 @@
 
     .dc-ford {
         top: 30%; 
-        left: 45%; 
+        left: 43%; 
 	    position: absolute;
 	    color: white;
 	    font-family: "OpenSans";
@@ -135,8 +141,8 @@
      }
 
      .dc-round {
-	    top: 40%; 
-	    left: 40%; 
+	    top: 36%; 
+	    left: 38%; 
 	    position: absolute;
 	    width: 134px;
 	    height: 134px;
