@@ -48,8 +48,19 @@
 }
 
 .dc-chances {
+    top: 15%; 
+    left: 22%; 
+    position: absolute;
+    color: white;
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dc-chances-2 {
     top: 25%; 
-    left: 12%; 
+    left: 22%; 
     position: absolute;
     color: white;
     font-family: "OpenSans";
@@ -77,6 +88,14 @@
     padding-right: 10%;    
     margin: auto;
     color: white;
+}
+
+.dc-bg-2 {
+	padding: 50px 0px 15px 0px;
+	margin-top: 50px;
+	background: #464551 no-repeat top center;
+	width: 100%;
+	background-size: cover;
 }
 
 @media only screen and (min-width : 320px) {

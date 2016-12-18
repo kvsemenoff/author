@@ -1,4 +1,4 @@
-<div class="dc-bg">
+<div class="dc-bg-2">
 	<div class="container">
 		<div class="row">
 		    <div class="col-md-12">
@@ -25,7 +25,7 @@
     		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
  				<div class="dc-count-two">
 					<div class="dc-play">
- 					    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-chances">Представитель ГИБДД о шансах найти угнанный автомобиль</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
+ 					    <a href="#"><img src="img/dc-black.png" alt="play" class="img-responsive"><div class="dc-chances">Представитель ГИБДД о шансе</div><div class="dc-chances-2">найти угнанный автомобиль</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
  				    </div>
  		        </div> 	
  		    </div>	    
