@@ -2,11 +2,22 @@
     <script>
 
 var map;
+
+var myLatLng = {lat: 59.940585, lng: 30.333680}
+
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 59.940585, lng: 30.333680},
+    center: myLatLng,
     zoom: 16
   });
+
+  var image = 'img/dc-marker.png';
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    icon: image
+  });
+
 }
 
     </script>
