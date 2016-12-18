@@ -47,6 +47,17 @@
     text-align: center;
 }
 
+.dc-chances {
+    top: 25%; 
+    left: 12%; 
+    position: absolute;
+    color: white;
+    font-family: "OpenSans";
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .dc-round {
     top: 45%; 
     left: 42%; 
@@ -59,6 +70,13 @@
     padding-left: 10%;
     padding-right: 10%;    
     margin: auto;
+}
+
+.dc-text {
+    padding-left: 10%;
+    padding-right: 10%;    
+    margin: auto;
+    color: white;
 }
 
 @media only screen and (min-width : 320px) {
