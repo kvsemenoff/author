@@ -3,11 +3,12 @@
 
 var map;
 
-var myLatLng = {lat: 59.940585, lng: 30.333680}
+var myLatLng = {lat: 59.940468, lng: 30.333598}
+var myLatLng1 = {lat: 59.941016, lng: 30.333416}
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
+    center: myLatLng1,
     zoom: 16
   });
 
