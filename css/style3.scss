@@ -48,23 +48,23 @@
 }
 
 .dc-chances {
-    top: 15%; 
-    left: 22%; 
+    top: 24%; 
+    left: 20%; 
     position: absolute;
     color: white;
     font-family: "OpenSans";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
 }
 
 .dc-chances-2 {
-    top: 25%; 
+    top: 34%; 
     left: 22%; 
     position: absolute;
     color: white;
     font-family: "OpenSans";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
 }
@@ -116,6 +116,29 @@
 	    width: 70px;
 	    height: 70px;
     }
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 18%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 20%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
 }
 
 @media only screen and (min-width : 480px) {
@@ -135,6 +158,28 @@
 	    position: absolute;
 	    width: 100px;
 	    height: 100px;
+	}
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 26%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 28%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
 	}
 }
 
@@ -156,6 +201,29 @@
 	    width: 100px;
 	    height: 100px;
 	}
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 26%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 28%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -183,6 +251,28 @@
 	    position: absolute;
 	    width: 134px;
 	    height: 134px;
+	}
+
+	.dc-chances {
+	    top: 18%; 
+	    left: 26%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 28%; 
+	    left: 28%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
 	}
 }
 
