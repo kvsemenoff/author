@@ -109,7 +109,8 @@
         left: 40%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -152,7 +153,8 @@
         left: 44%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -194,7 +196,8 @@
         left: 43%; 
 	    position: absolute;
 	    color: white;
-	    font-family: OpenSans;
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -238,6 +241,15 @@
 		height: 765px;
 		margin-bottom: 0;
 	}	
+
+	.dc-bg-2 {
+		padding: 100px 0px 100px 0px;
+		margin-top: 50px;
+		background: #464551 no-repeat top center;
+		width: 100%;
+		background-size: cover;
+	}
+
     .dc-count-two {
 	    width: 100%;	    
         padding: 0px 0px 0px 0px;
