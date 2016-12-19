@@ -7,16 +7,28 @@
 				    <h4>популярных среди угонщиков</h4>
 			    </div>
 			</div>
-    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
+    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-12">
  				<div class="dc-count-two">
-				    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
+					<section>
+                        <iframe class="video" style="border:0-moz-border-radius: 45px;
+border-radius: 45px;" frameborder="0" src="https://www.youtube.com/embed/2Y9pSsxdGxE" frameborder="0" allowfullscreen=""></iframe>
+					</section>
+                    <div class="dc-ford">Ford Focus</div>				    
  				</div>
  		    </div>
-    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
+    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-12">
  				<div class="dc-count-two">
-				    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
+                        <iframe class="video" style="border:0-moz-border-radius: 45px;
+border-radius: 45px;" src="https://www.youtube.com/embed/uDLTm-MLvB8" frameborder="0" allowfullscreen></iframe>
+				        <div class="dc-ford">Ford Kuga</div>				 
  		        </div> 	
  		    </div>	    
 		</div>
 	</div>
 </div>
+<script src="jquery.js"></script>
+<script src="mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="mediaelementplayer.css" />
+<script>
+    var player = new MediaElementPlayer('#player1');
+</script>
