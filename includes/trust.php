@@ -7,7 +7,7 @@
 				    <h4>К сожалению, статистика по возврату не на стороне пострадавших</h4>
 			    </div>
 			</div>
-    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
+    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-12">
  				<div class="dc-count-two">
 					<div class="dc-text">
 					<ol>
@@ -22,7 +22,7 @@
  					</div>    
  				</div>
  		    </div>
-    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
+    		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-12">
  				<div class="dc-count-two">
 					<div class="dc-play"> 	
 					    <iframe class="video" style="border:0-moz-border-radius: 45px;
