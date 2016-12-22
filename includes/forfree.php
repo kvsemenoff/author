@@ -6,7 +6,7 @@
 				<div class="df-two-boxs">
 					<div class="df-box">
 						<div class="df-img">
-							<img src="img/df-img1.png" alt="">
+							<img src="img/df-img1.png" alt="" class="img-responsive">
 						</div>
 						<span>Консультация по телефону</span>
 						<ul>
@@ -17,7 +17,7 @@
 					</div>
 					<div class="df-box">
 						<div class="df-img">
-							<img src="" alt="">
+							<img src="img/df-img2.png" alt="" class="img-responsive">
 						</div>
 						<span>Консультация в установочном центре</span>
 						<ul>
