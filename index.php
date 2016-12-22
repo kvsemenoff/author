@@ -33,7 +33,11 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+<<<<<<< HEAD
 
+=======
+	<?php require_once('includes/forfree.php'); ?>
+>>>>>>> 7e42e41d7eb7c8522dc5eb0e88dd5a2b607334dc
 	<?php require_once('includes/footer.php'); ?>
 
 	
