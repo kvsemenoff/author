@@ -1,3 +1,61 @@
+.clear{
+	clear: both;
+}
+
+//==========forfree
+
+.df-bg{
+	background:#28272e;
+	width: 100%;
+	padding-top:20px;
+}
+.df-free{
+	text-align: center;
+	h3{
+		font-family: "OpenSans-ExtraBold";
+	}
+	.df-two-boxs{
+		color:#ffffff;		
+		padding: 20px 0px;
+		text-align: center;
+		margin: 0 auto;
+		.df-box{
+			display: inline-block;			
+			margin: 0 auto;
+			text-align: center;			
+			vertical-align: top;			
+			margin-bottom: 15px;
+			padding: 0 7px;
+			.df-img{			
+				display: inline-block;			
+			}
+		}		
+		span{			
+			font-size: 16px;
+			font-family: "OpenSans-Semibold";
+			display: block;
+			margin: 19px 0;
+		}
+		ul{
+			// display: inline-block;
+			display: block;
+			// padding: 0 10px;
+			max-width: 358px;
+			width: 100%;
+			li{
+				font-size: 14px;
+				// display: block;
+				background: url(/img/df-li.png)no-repeat left top 8px;
+				text-align: left;
+				font-family: "OpenSans-Regular";
+				padding-left: 30px;
+				line-height: 25px;
+				margin-bottom: -1px;
+			}
+		}
+	}
+}
+//========== end - forfree
 
 
 @media only screen and (min-width : 320px) {
@@ -7,19 +65,57 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.df-bg{
+		background:#28272e;
+		width: 100%;
+		padding-top:124px;
+	}
+
+	.df-free{
+		text-align: center;	
+		margin: 0 auto;
+		.df-two-boxs{
+			text-align: center;				
+			padding: 98px 0px;	
+			ul{
+						
+			}
+			
+		}
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	
+	.df-free{
+		text-align: center;	
+		margin: 0 auto;
+		.df-two-boxs{
+			text-align: center;				
+			padding: 73px 0px;	//98
+			ul{
+				
+			}			
+		}
+		.df-box:first-child{
+			margin-right: 70px;//200
+		}
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-free{	
+		.df-box:first-child{
+			margin-right: 200px;//200
+		}
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
