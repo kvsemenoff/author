@@ -58,6 +58,55 @@
 //========== end - forfree
 
 
+//================questions
+.df-bg-2{
+	background:#1e1d22;
+	width: 100%;
+	padding-top:20px;
+}
+.df-questions{
+	margin-bottom: 100px;
+	h3{
+		text-align: center;
+		margin: 111px 0;
+
+	}
+	.df-quest{
+		margin-bottom: 60px;
+		.df-block1{
+			padding: 20px 20px 28px 20px;
+			border-bottom: 1px solid #28272e;
+			a{
+				display: block;
+				font-size: 16px;
+				color:#fff;
+				padding-right:20px;
+				font-family: "OpenSans-Bold";
+				background: url(/img/df-galka.png)no-repeat center right;
+			}
+			a:active, a:focus { outline: none; }
+			.dfgalka{
+				background: url(/img/df-galka2.png)no-repeat center right;
+			}
+			p{
+				display: none;
+				color:#9fa3a7;
+				font-size: 14px;
+				font-family: "OpenSans-Regular";
+				margin-top: 45px;
+			}
+			.df-text{
+				display: block;
+
+			}
+		}
+	}
+	.df-button{
+
+	}
+}
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -65,6 +114,7 @@
 }
 
 @media only screen and (min-width : 768px) {
+	//for free
 	.df-bg{
 		background:#28272e;
 		width: 100%;
@@ -86,7 +136,7 @@
 }
 
 @media only screen and (min-width : 992px) {
-	
+	//for free
 	.df-free{
 		text-align: center;	
 		margin: 0 auto;
@@ -104,6 +154,7 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	//for free
 	.df-free{	
 		.df-box:first-child{
 			margin-right: 200px;//200
