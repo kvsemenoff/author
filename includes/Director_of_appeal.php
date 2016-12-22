@@ -4,8 +4,7 @@
  			<div class="col-md-6">
  				<div class="db-count-one">
  					<div class="db-appeal">
- 					<h3>Обращение директора
- 							установочного центра</h3>
+ 					<h3>Обращение директора установочного центра</h3>
  						</div>
  						<div class="db-lorem">
  							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
@@ -18,6 +17,8 @@
  				</div>
  				<div class="col-md-6">
  					<div class="db-count-two">
+					<div class="db-play">
+ 					<img src="img/play.png" alt="play" class="img-responsive">
  					</div>
  				</div>
  			</div>
