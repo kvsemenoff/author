@@ -4,8 +4,58 @@
 @import "style3.css";
 @import "style4.css";
 @import "fonts.css";
-.one{
-	background: red;
+.db-all-count{
+						background-color: #28272e;
+						color:#fff;
+						text-align: center;
+						
+
+	.db-count-one{
+		padding:20px 20px;
+		.db-appeal{
+			h3{
+				margin-bottom:50px;
+
+			}
+		}
+		.db-lorem{
+			margin-bottom:50px;
+		}
+		.db-fourth{
+					text-align: center;
+					margin-top:5px;
+							
+				 span{ 
+					padding: 12px 2px 15px 2px;
+					background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+					border-radius:25px;
+					z-index: 1;
+					a{
+					color:white;
+					font-size:14px;
+				    background-color: #28272e;
+					padding: 12px;
+					border-radius:25px;
+					z-index: 10;					
+					display: inline-block;
+					transition: all 0.5s;
+					letter-spacing: 0.1em;
+				    }	
+					a:hover{
+					background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+					transition: all 0.5s;
+				}
+				} 
+				 
+				 
+		}
+	}
+
+	.db-count-two{
+// 		padding: 10px;
+// background-color: #1e1d22;
+// border-radius: 50px; 
+	}
 }
 @media only screen and (min-width : 320px) {
 }
