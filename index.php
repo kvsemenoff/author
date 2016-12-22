@@ -35,6 +35,7 @@
 
 	<?php require_once('includes/forfree.php'); ?>
 	<?php require_once('includes/questions.php'); ?>
+	<?php require_once('includes/Director_of_appeal.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	

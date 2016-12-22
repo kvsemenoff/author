@@ -92,14 +92,47 @@ h4{
 }
 
 // Header top --
-
+.my-container{
+	max-width:1150px;
+	margin: 0 auto;
+}
 .dd-header-top-wrap{
 	background: url('../img/dd-header.jpg') no-repeat top center;
 	width: 100%;
 	.dd-header-top{
+		padding: 15px 0px;
+		border-bottom: 2px solid #7C7B80;
 		ul{
 			li{
 				display: inline-block;
+				padding-left:48px;
+				
+				a{
+					font-size: 13px;
+					font-weight: 700;
+					text-transform: uppercase;
+					font-family: "OpenSans-Regular";
+					color:#fff;
+					
+				}
+				a:hover{
+					text-decoration: underline;
+				}
+			}
+			li:first-child{
+				padding-left:0px;
+			}
+			li:last-child{
+				font-size: 20px;
+				color:#fff;
+				font-family: "OpenSans-Regular";
+				font-weight: 400;
+				float: right;
+				margin-top: -5px;
+				span{
+					font-size: 20px;
+					font-weight: 700;
+				}
 			}
 		}
 	}
@@ -107,6 +140,116 @@ h4{
 
 // Конец Header top --
 
+#check_1{
+	display: none;
+	position: fixed;
+	top: 25px;
+	right: 25px;
+	font-size: 50px; 
+}
+.anz-perspective{
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	-webkit-perspective: 500px; 
+	perspective: 500px;
+	z-index: 150;
+}
+
+#check_1:checked ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	left: 0px;
+}
+#check_1 ~ .anz-perspective{
+	transition: all 1s ease-in-out;
+	left: -330px;
+}
+#check_1:checked ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(0deg);
+}
+#check_1 ~ .anz-perspective .menu-list-pressed{
+	transition: all 1s ease-in-out;
+	transform: rotateY(90deg);
+}
+.anz-menu-ch{
+	cursor: pointer;    
+}
+
+/*конец menu*/
+
+/*menu styles*/
+.anz-menu{
+	text-align: right;
+	.dd-mainmenu{
+		li{
+			a{
+				font-size: 13px;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-family: "OpenSans-Regular";
+				color:#fff;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+		li:last-child{
+			padding-top: 20px;
+			font-size: 20px;
+			color:#fff;
+			font-family: "OpenSans-Regular";
+			font-weight: 400;
+			float: right;
+			margin-top: -5px;
+			span{
+				font-size: 20px;
+				font-weight: 700;
+			}
+		}
+
+	}
+}
+.menu-list-pressed{
+	border-radius:10px;
+	width: 228px;
+	height: 100%;
+	padding: 30px;
+	line-height: 40px;
+	background: #4A4950;
+	opacity: 0.9;
+	text-align: left;
+}
+.anz-menu-ch{
+	display: inline-block;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 22px;
+	right:25px;
+	z-index: 9999;
+}
+.anz-menu-ch:hover{
+	opacity: 0.3;
+}
+.main-menu{
+	text-align: left;
+}
+.anz-menu-ch1{
+	display: inline-block;
+	width: 41px;
+	height: 43px;
+	font-size: 30px;
+	position: fixed;
+	top: 0px;
+	right:-8px;
+    // opacity: 0.4;
+    cursor: pointer;
+}
+.anz-menu-ch1:hover{
+	opacity: 0.8;
+}
 
 
 
