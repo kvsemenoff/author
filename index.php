@@ -33,7 +33,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 
-
+	<?php require_once('includes/photos.php'); ?>
 	<?php require_once('includes/command.php'); ?>
 	<?php require_once('includes/forfree.php'); ?>
 	<?php require_once('includes/questions.php'); ?>
