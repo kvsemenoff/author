@@ -135,7 +135,9 @@
 }
 
 @media only screen and (min-width : 992px) {
-.db-all-count{
+}
+@media only screen and (min-width : 1248px) {
+	.db-all-count{
 	padding: 150px 0 150px 0;
 	
 	.db-apple-h2{
@@ -223,8 +225,7 @@ height:150px !important;
 	}
 
 }
-}
-@media only screen and (min-width : 1248px) {
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
