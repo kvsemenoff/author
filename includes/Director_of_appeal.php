@@ -4,7 +4,7 @@
  			<div class="col-md-6">
  				<div class="db-count-one">
  					<div class="db-appeal">
- 					<h3>Обращение директора установочного центра</h3>
+ 					<h2 class="db-apple-h2">Обращение директора установочного центра</h2>
  						</div>
  						<div class="db-lorem">
  							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
