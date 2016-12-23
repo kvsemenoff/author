@@ -137,7 +137,7 @@
 }
 
 
-// COMMANDS
+//==========================COMMANDS
 
 	.df-bg-3{
 		background: url(/img/df-bg-3.jpg)repeat;
@@ -181,7 +181,7 @@
 			margin-right: 0px;
 		}
 	}
-//command owl-carusel
+//===============command owl-carusel
 .df-left{
 	background: url(/img/df-left.png)no-repeat;
 	height: 50px;
@@ -219,28 +219,30 @@
 }
 
 
-//photos
+//=======================photos
+
 .df-bg-4{
 	background: url(/img/df-bg4.jpg)no-repeat center center;
-	width: 1920px;	
+	max-width: 1920px;
+	width: 100%;
 	margin: 0 auto;
-	// position: absolute;
-	// top:50%;
-	// left:50%;
-	// transform: translate(-50%, -50%);
+	text-align: center;	
+
 }
 .df-photos{
 	text-align: center;
+	margin: 0 auto;
 	h3{
 		color:#fff;
-		margin: 100px 0 72px 0;
+		margin: 25px 0 25px 0;
+		font-family: "OpenSans-ExtraBold";
 	}
 	.df-ph1{
-		display: inline-block;
-		
-		margin-bottom: 141px;
+		display: inline-block;		
+		margin-bottom: 147px;
 		img{
-
+			width: 100%;
+			height: auto;
 		}
 	}
 }
@@ -287,6 +289,13 @@
 			margin-bottom: 142px;//0
 		}
 	}
+	//===========photos
+	.df-photos{	
+		h3{			
+			margin: 93px 0 72px 0;			
+		}
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
