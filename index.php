@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -32,7 +32,8 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-
+	<?php require_once('includes/yourcar.php'); ?>
+	<?php require_once('includes/neuspel.php'); ?>
 	<?php require_once('includes/photos.php'); ?>
 	<?php require_once('includes/command.php'); ?>
 	<?php require_once('includes/forfree.php'); ?>
