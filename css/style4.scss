@@ -7,7 +7,9 @@
 body{
 	background: #28272D;
 }
-
+form{
+	margin-top:20px;
+}
 .dd-padding-top{
 	padding-top: 9px;
 }
@@ -136,6 +138,7 @@ h4{
 			text-align: center;
 			.dd-h-size{
 				font-size: 18px;
+				color:#fff;
 				span{
 					color:red;
 				}
@@ -426,13 +429,13 @@ h4{
 			position:relative;
 			.dd-man{
 				position:absolute;
-				top:89px;
+				top:70px;
 				img{
 					display: block;
 				}
 			}	
 			.dd-head-title{
-				width: 710px;
+				width: 709px;
 				float: right;
 				text-align: right;
 				.dd-h-size{
