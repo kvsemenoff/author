@@ -28,7 +28,7 @@
 			text-align: center;
 			margin-top:5px;			
 			span{ 
-				padding: 11px 2px 14px 2px;
+				padding: 12px 2px 13px 2px;
 				background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 				border-radius:25px;
 				z-index: 1;
@@ -98,13 +98,7 @@ width: 556px;
 font-size: 16px !important;
 
 	}
-.db-play{
-	img{
-margin-top: 80px !important;
-width: 159px !important;
-height: 160px !important;
-	}
-}
+
 
 
 	.db-fourth{
@@ -118,9 +112,14 @@ margin-left: 29px !important;
 
 .db-count-two{
 	.db-play{
-	margin-left: 68px;
-width: 580px;
+margin-left: 39px;
+padding:150px 0px !important;
 border-radius: 52px !important;
+	img{
+margin-top: 30px !important;
+width:150px !important;
+height:150px !important;
+	}
 }
 }
 }

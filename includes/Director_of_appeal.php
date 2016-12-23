@@ -18,7 +18,7 @@
  				<div class="col-md-6">
  					<div class="db-count-two">
 					<div class="db-play">
- 					<img src="img/play.png" alt="play" class="img-responsive">
+ 					<a href="#"><img src="img/play.png" alt="play" class="img-responsive"></a>
  					</div>
  				</div>
  			</div>
