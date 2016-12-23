@@ -366,6 +366,12 @@ h4{
 	.my-container{
 		.dd-neuspel{
 			text-align: center;
+			.dd-maska{
+				display: none;
+			}
+			.dd-bandit-button{
+				display: none;
+			}
 			.dd-new-h3{
 				text-transform: uppercase;
 				font-weight: 700;
@@ -506,28 +512,32 @@ h4{
 	.dd-neuspel-wrap{
 		position:relative;
 		background: url('../img/dd-bandit.jpg') no-repeat top center;
-		.dd-maska{
-			position:absolute;
-			right: 158px;
-			top:-34px;
-		}
-		.dd-bandit-button{
-			background: url('../img/play.png') no-repeat top center;
-			width: 142px;
-			height: 148px;
-			position:absolute;
-			right: 158px;
-			top:-34px;
-			right: 301px;
-			top: 368px;
-			transition: 0,5s;
-		}
-		.dd-bandit-button:hover{
-			background: url('../img/play2.png') no-repeat top center;
-		}
+
+		
 		.my-container{
 			.dd-neuspel{
 				text-align: left;
+				.dd-maska{
+					display: block;
+					position:absolute;
+					right: 158px;
+					top:-34px;
+				}
+				.dd-bandit-button{
+					display: block;
+					background: url('../img/play.png') no-repeat top center;
+					width: 142px;
+					height: 148px;
+					position:absolute;
+					right: 158px;
+					top:-34px;
+					right: 301px;
+					top: 368px;
+					transition: 0,5s;
+				}
+				.dd-bandit-button:hover{
+					background: url('../img/play2.png') no-repeat top center;
+				}
 				.dd-new-h3{
 					font-size: 36px;
 					line-height: 50px;
