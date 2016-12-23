@@ -65,16 +65,18 @@
 	padding-top:20px;
 }
 .df-questions{
+
 	margin-bottom: 100px;
 	h3{
 		text-align: center;
-		margin: 111px 0;
-
+		margin: 71px 0 77px 0px;
+		font-family: "OpenSans-ExtraBold";
 	}
 	.df-quest{
 		margin-bottom: 60px;
+		padding: 0 104px 0 95px;
 		.df-block1{
-			padding: 20px 20px 28px 20px;
+			padding: 20px 20px 21px 20px;
 			border-bottom: 1px solid #28272e;
 			a{
 				display: block;
@@ -101,8 +103,31 @@
 			}
 		}
 	}
-	.df-button{
-
+	.df-b{
+		text-align: center;
+		.df-button{
+			padding: 14px 2px 14px 2px;
+			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+			border-radius: 25px;
+			z-index: 1;
+			 
+			a{
+				color: white;
+				font-size: 14px;
+				background-color: #28272e;
+				padding: 12px 29px;
+				border-radius: 25px;
+				z-index: 10;
+				display: inline-block;
+				transition: all 0.5s;
+				letter-spacing: 0.1em;
+				 font-family: "OpenSans-Bold";
+			}
+			a:hover{
+				background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+				transition: all 0.5s;
+			}
+		}
 	}
 }
 
