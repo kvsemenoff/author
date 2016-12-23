@@ -60,7 +60,7 @@ $(document).ready(function(){
       });
 
 
-        var owl = $("#owl-carusel-photos");
+        var owl = $(".owl-carusel-photos");
  
       owl.owlCarousel({
 
@@ -83,6 +83,7 @@ $(document).ready(function(){
         }
          
       });
+     
 
  });
 
