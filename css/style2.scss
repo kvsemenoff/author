@@ -73,6 +73,57 @@
 		} 
 	}
 }
+.db-all-yourcar{
+	background-image:url(../img/db-yourcar.jpg); 
+	color:#fff;
+	font-family: "OpenSans-Regular";
+	text-align: center;
+	
+	.db-container-yourcar{
+			
+
+		.db-h-yourcar{
+			h3{
+				padding-top:50px;
+				font-size:36px;
+			}
+		}
+		.db-all-content{
+			vertical-align: top;
+		.db-left-yourcar{
+			padding-top:50px;
+			padding-bottom:50px;
+			margin:0 auto;
+			width: 250px;
+			
+			.db-left-one{
+				
+			}
+			.db-left-two{
+			 text-align: center;
+			}
+		}
+		
+		.db-middle-yourcar{
+			width: 250px;
+			margin:0 auto;
+			padding-bottom:50px;
+		}
+		.db-right-yourcar{
+			width: 270px;
+			margin:0 auto;
+			padding-bottom:50px;
+			.db-left-one{
+			
+			}
+			.db-left-two{
+				text-align: center;
+			}
+		}
+	}
+}
+
+}
 @media only screen and (min-width : 320px) {
 	
 }
@@ -122,6 +173,55 @@ width:150px !important;
 height:150px !important;
 	}
 }
+}
+
+.db-all-yourcar{
+	padding: 37px 0 120px 0;
+
+	.db-container-yourcar{
+
+
+		.db-h-yourcar{
+			padding-bottom: 66px;
+			h3{
+				font-size:36px;
+			}
+		}
+		.db-all-content{
+			margin:0 auto;
+			}
+		.db-left-yourcar{
+			margin-left:223px!important;
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+
+			.db-left-one{
+				float:left;
+			}
+			.db-left-two{
+			}
+		}
+		.db-middle-yourcar{
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+			margin-left:153px !important;
+			line-height: 30px;
+		}
+		.db-right-yourcar{
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+			margin-left:143px !important;
+			.db-left-one{
+				float:left;
+			}
+			.db-left-two{	
+			}
+		}
+	}
+
 }
 }
 @media only screen and (min-width : 1248px) {
