@@ -28,10 +28,11 @@
 			text-align: center;
 			margin-top:5px;			
 			span{ 
-				padding: 12px 2px 13px 2px;
+				padding: 3px 2px 3px 2px;
 				background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 				border-radius:25px;
 				z-index: 1;
+				display: inline-block;
 				a{
 					font-family: "OpenSans-Regular";
 					color:white;
