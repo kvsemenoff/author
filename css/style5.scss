@@ -227,7 +227,7 @@
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;	
-	padding-bottom: 50px;
+	background-size: cover;
 }
 .df-photos{
 	text-align: center;
@@ -248,7 +248,16 @@
 }
 
 //slider
+.df-padding{
+		padding: 0px;
+		margin: 55px 0 45px 0;
+		h3{
+			font-size: 24px;
+			margin: 0;
+		}
+	}
 .df-slider{
+	
 	.df-relative{
 		position: relative;
 		z-index: 1;
@@ -349,7 +358,16 @@
 	//===========photos
 	.df-photos{	
 		h3{			
-			margin: 93px 0 72px 0;			
+			margin: 55px 0 45px 0;	//93 72		
+		}
+	}
+	//slider
+	.df-padding{
+		padding: 0 155px;
+		margin: 85px 0 74px 0;
+		h3{
+			font-size: 36px;
+			margin: 0;
 		}
 	}
 
