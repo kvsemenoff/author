@@ -13,6 +13,7 @@
 	text-align: center;
 	h3{
 		font-family: "OpenSans-ExtraBold";
+		color:#fff;
 	}
 	.df-two-boxs{
 		color:#ffffff;		
@@ -55,7 +56,7 @@
 		}
 	}
 }
-//========== end - forfree
+
 
 
 //================questions
@@ -64,13 +65,13 @@
 	width: 100%;
 	padding-top:20px;
 }
-.df-questions{
-
+.df-questions{	
 	margin-bottom: 100px;
 	h3{
 		text-align: center;
 		margin: 71px 0 77px 0px;
 		font-family: "OpenSans-ExtraBold";
+		color:#fff;
 	}
 	.df-quest{
 		margin-bottom: 60px;
@@ -100,16 +101,18 @@
 			}
 			.df-text{
 				display: block;
-
 			}
 		}
 	}
 	.df-b{
 		text-align: center;
+		padding: 0 20px;
 		.df-button{
-			padding: 2px 2px 2px 2px;
+			// padding: 2px 2px 2px 2px;
+			padding: 3px 3px 2.5px 3px;
 			display: inline-block;
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+			background-image: -webkit-linear-gradient(left, #ef2e31 0%, #fec337 100%);
 			border-radius: 25px;
 			z-index: 1;
 			 
@@ -134,7 +137,7 @@
 }
 
 
-// COMMANDS
+//==========================COMMANDS
 
 	.df-bg-3{
 		background: url(/img/df-bg-3.jpg)repeat;
@@ -148,6 +151,7 @@
 			text-align: center;
 			margin: 71px 0 77px 0px;
 			font-family: "OpenSans-ExtraBold";
+			color:#fff;
 		}
 		.df-man1{
 			display: inline-block;
@@ -177,7 +181,7 @@
 			margin-right: 0px;
 		}
 	}
-//command owl-carusel
+//===============command owl-carusel
 .df-left{
 	background: url(/img/df-left.png)no-repeat;
 	height: 50px;
@@ -210,37 +214,97 @@
 .df-right:hover{
 	background: url(/img/df-right2.png)no-repeat;
 }
-
-
-
 .owl-dots{
-	// position: absolute;
-	// left: 46%;
-	// transform:translate(0, -50%);
-	// bottom: 45px;
-	display: none;
-	
+	display: none;	
 }
-// .owl-dot{
-// 	display:inline-block;	
-// }
 
-// .owl-dots span{		
-// 	background: white;
-// 	border-radius: 45%;
-// 	// background:url(/img/df-dot1.png)no-repeat center center;
-// 	width: 8px;
-// 	height: 8px;
-// 	// position: absolute;	
-// 	display: inline-block;
-// 	margin: 0 18px 0 5px;
-// 	vertical-align: middle;
-// }
-//  .active>span{
-//  	width: 15px;height: 15px;
-// 	background:url(/img/df-dot.png)no-repeat center center;
-	
-// }
+
+//=======================photos
+
+.df-bg-4{
+	background: url(/img/df-bg4.jpg)no-repeat center center;
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;	
+	padding-bottom: 50px;
+}
+.df-photos{
+	text-align: center;
+	margin: 0 auto;
+	h3{
+		color:#fff;
+		margin: 25px 0 25px 0;
+		font-family: "OpenSans-ExtraBold";
+	}
+	.df-ph1{
+		display: inline-block;		
+		margin-bottom: 147px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+//slider
+.df-slider{
+	.df-relative{
+		position: relative;
+		z-index: 1;
+	}
+	.df-relative:hover:before{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        background: rgba(#1e1d22,0.9);
+        z-index: 20;
+    }
+    .df-relative:hover:after{
+			content:"";
+            // position: absolute;
+            // z-index: 40;
+            .df-button{
+            	display: inline-block ;        
+            	// position: absolute;
+            }
+        }  
+	.df-button{
+		
+		display:none;		
+	 //   border-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%) 1;
+		background: url(/img/df-ramka.png)no-repeat center center;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		z-index: 100;
+		position: absolute;	
+		a{
+		color: white;
+		font-size: 14px;	
+		padding: 17px 41px;
+		border-radius: 25px;
+		z-index: 10;
+		display: inline-block;
+		transition: all 0.5s;
+		letter-spacing: 0.1em;
+		font-family: "OpenSans-Bold";
+		
+	}
+	a:hover{
+		background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+		transition: all 0.5s;
+	}
+}
+
+
+
+}
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -282,6 +346,13 @@
 			margin-bottom: 142px;//0
 		}
 	}
+	//===========photos
+	.df-photos{	
+		h3{			
+			margin: 93px 0 72px 0;			
+		}
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -302,12 +373,14 @@
 	}
 
 	//question
-	.df-questions{	
+	.df-questions{
 		.df-quest{
-
-		 padding: 0 104px 0 95px;
+			padding: 0 104px 0 95px;
+		}
+		.df-b{		
+			padding: 0px;
+		}
 	}
-}
 
 }
 
