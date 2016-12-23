@@ -29,7 +29,11 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut agni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
 					</div>				
 				</div>
-				<span class="df-button"><a href="#">Получить консультацию БЕСПЛАТНО</a></span>
+				<div class="df-b">
+					<span class="df-button">
+					<a href="#">Получить консультацию БЕСПЛАТНО</a>
+					</span>
+				</div>
 			</div>
 		</div>
 	</div>
