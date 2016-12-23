@@ -121,7 +121,10 @@ h4{
 	padding-bottom:20px;
 }
 // Header top --
-
+.my-container{
+	max-width:1182px;
+	margin: 0 auto;
+}
 
 .dd-header-top-wrap{
 	background: url('../img/dd-header.jpg') no-repeat top center;
@@ -353,6 +356,91 @@ h4{
 	opacity: 0.8;
 }
 
+// Не успел защитить
+
+.dd-neuspel-wrap{
+	background: #323139;
+	// background: url('../img/dd-bandit.jpg') no-repeat top center;
+	width: 100%;
+	padding:102px 0px;
+	.my-container{
+		.dd-neuspel{
+			text-align: center;
+			.dd-maska{
+				display: none;
+			}
+			.dd-bandit-button{
+				display: none;
+			}
+			.dd-new-h3{
+				text-transform: uppercase;
+				font-weight: 700;
+				line-height: 30px;
+				font-size: 24px;
+				padding-bottom: 83px;
+				span{
+					color:red;
+				}
+			}
+			.dd-table-neuspel{
+				padding-bottom: 30px;
+				div:first-child{
+					span{
+						font-family: "OpenSans-Regular";
+						font-size: 14px;
+						font-weight: 700;
+						line-height: 24px;
+						color:#fff;
+					}
+				}
+				div:last-child{
+					span{
+						font-family: "OpenSans-Regular";
+						font-size: 14px;
+						font-weight: 400;
+						line-height: 24px;
+						color:#fff;
+					}
+				}
+			}
+			.dd-what-next{
+				img{
+					margin: 0 auto;
+				}
+			}
+			.dd-what-happend{
+				width: 100%;
+				margin: 0 auto;
+				background: #1E1D22;
+				border-radius: 50px;
+				padding: 65px 50px 50px;
+				margin-bottom: 20px;
+				img{
+					margin: 0 auto;
+				}
+			}
+			.dd-neuspel-txt{
+				padding-bottom: 26px;
+				span{
+					font-family: "OpenSans-Regular";
+					font-size: 18px;
+					font-weight: 700;
+					line-height: 24px;
+					text-transform: uppercase;
+					color:#fff;
+				}
+			}
+			.dd-neuspel-button{
+				.form-button{
+					width: 250px;
+				}
+			}
+		}
+	}
+}
+
+// Конец - не успел защитить
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -365,6 +453,8 @@ h4{
 }
 
 @media only screen and (min-width : 768px) {
+
+	
 
 	.dd-header-top-wrap{
 		height: 990px;
@@ -419,6 +509,81 @@ h4{
 }
 
 @media only screen and (min-width : 1200px) {
+	.dd-neuspel-wrap{
+		position:relative;
+		background: url('../img/dd-bandit.jpg') no-repeat top center;
+
+		
+		.my-container{
+			.dd-neuspel{
+				text-align: left;
+				.dd-maska{
+					display: block;
+					position:absolute;
+					right: 158px;
+					top:-34px;
+				}
+				.dd-bandit-button{
+					display: block;
+					background: url('../img/play.png') no-repeat top center;
+					width: 142px;
+					height: 148px;
+					position:absolute;
+					right: 158px;
+					top:-34px;
+					right: 301px;
+					top: 368px;
+					transition: 0,5s;
+				}
+				.dd-bandit-button:hover{
+					background: url('../img/play2.png') no-repeat top center;
+				}
+				.dd-new-h3{
+					font-size: 36px;
+					line-height: 50px;
+					padding-bottom: 65px;
+				}
+				.dd-table-neuspel{
+					padding-bottom: 6px;
+					display: table;
+					div{
+						display: table-cell;
+						
+					}
+					div:last-child{
+						padding-left: 20px;
+						width: 337px;
+					}
+				}
+				.dd-pb{
+					padding-bottom:23px;
+				}
+				.dd-what-next{
+					img{
+						margin-left: 36px;
+					}
+				}
+				.dd-what-happend{
+					display: none;
+				}
+				.dd-neuspel-txt{
+					padding-bottom: 26px;
+					padding-left: 14px;
+					span{
+						letter-spacing: 1px;
+					}
+				}
+				.dd-neuspel-button{
+					display: inline-block;
+					padding-left: 85px;
+					text-align: center;
+					.form-button{ 
+						width: 310px;
+					}
+				}
+			}
+		}
+	}
 	.form-wrap-main{
 		float: right;
 		// position:absolute;

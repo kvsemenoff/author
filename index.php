@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -31,8 +31,10 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/header.php'); ?>	
 	<?php require_once('includes/yourcar.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
+	<?php require_once('includes/neuspel.php'); ?>
 	<?php require_once('includes/photos.php'); ?>
 	<?php require_once('includes/command.php'); ?>
 	<?php require_once('includes/forfree.php'); ?>
