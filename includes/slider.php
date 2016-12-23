@@ -1,7 +1,9 @@
 <div class="df-bg-4">
 	<div class="container df-container">		
 		<div class="df-photos df-slider">
-			<h3>Вот неполный список авто, которые угнали в этом месяце в Санкт-Петербурге</h3>
+			<div class="df-padding">
+				<h3>Вот неполный список авто, которые угнали в этом месяце в Санкт-Петербурге</h3>
+			</div>
 			<div class="owl-carusel-photos">
 				<div class="item">
 					<div class="df-ph1 df-relative">
