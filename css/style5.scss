@@ -13,6 +13,7 @@
 	text-align: center;
 	h3{
 		font-family: "OpenSans-ExtraBold";
+		color:#fff;
 	}
 	.df-two-boxs{
 		color:#ffffff;		
@@ -55,7 +56,7 @@
 		}
 	}
 }
-//========== end - forfree
+
 
 
 //================questions
@@ -71,6 +72,7 @@
 		text-align: center;
 		margin: 71px 0 77px 0px;
 		font-family: "OpenSans-ExtraBold";
+		color:#fff;
 	}
 	.df-quest{
 		margin-bottom: 60px;
@@ -110,6 +112,7 @@
 			padding: 2px 2px 2px 2px;
 			display: inline-block;
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+			background-image: -webkit-linear-gradient(left, #ef2e31 0%, #fec337 100%);
 			border-radius: 25px;
 			z-index: 1;
 			 
@@ -148,6 +151,7 @@
 			text-align: center;
 			margin: 71px 0 77px 0px;
 			font-family: "OpenSans-ExtraBold";
+			color:#fff;
 		}
 		.df-man1{
 			display: inline-block;
@@ -210,37 +214,38 @@
 .df-right:hover{
 	background: url(/img/df-right2.png)no-repeat;
 }
-
-
-
 .owl-dots{
-	// position: absolute;
-	// left: 46%;
-	// transform:translate(0, -50%);
-	// bottom: 45px;
-	display: none;
-	
+	display: none;	
 }
-// .owl-dot{
-// 	display:inline-block;	
-// }
 
-// .owl-dots span{		
-// 	background: white;
-// 	border-radius: 45%;
-// 	// background:url(/img/df-dot1.png)no-repeat center center;
-// 	width: 8px;
-// 	height: 8px;
-// 	// position: absolute;	
-// 	display: inline-block;
-// 	margin: 0 18px 0 5px;
-// 	vertical-align: middle;
-// }
-//  .active>span{
-//  	width: 15px;height: 15px;
-// 	background:url(/img/df-dot.png)no-repeat center center;
-	
-// }
+
+//photos
+.df-bg-4{
+	background: url(/img/df-bg4.jpg)no-repeat center center;
+	width: 1920px;	
+	margin: 0 auto;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.df-photos{
+	text-align: center;
+	h3{
+		color:#fff;
+		margin: 100px 0 72px 0;
+	}
+	.df-ph1{
+		display: inline-block;
+		
+		margin-bottom: 141px;
+		img{
+
+		}
+	}
+}
+
+
 
 @media only screen and (min-width : 320px) {
 }

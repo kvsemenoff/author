@@ -1,6 +1,5 @@
 <div class="df-bg-3">
-	<div class="container df-container">
-		
+	<div class="container df-container">		
 			<div class="df-command" >
 				<h3>Наша команда</h3>
 				<div id="owl-carusel">
