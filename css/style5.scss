@@ -366,6 +366,32 @@
 	
 }
 
+//=============nochanse
+
+.df-nochanse{
+	
+	.df-find-car{
+		h3{
+			font-size: 30px;
+		}		
+		h3, h4{
+			letter-spacing: 0.1px;
+		}
+		h4{
+			margin-bottom: 19px;
+		}
+		span {
+		margin-left: 4px;			
+			a{				
+				letter-spacing: 1.5px;
+				padding: 12px 28px;				
+			}			
+		}
+	}
+	.df-car{
+		z-index: 10;		
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -511,20 +537,33 @@
 	}
 
 	//findyourcar
-	.df-bg-car{	 
-	.df-find-car{
-		position: relative;
-		// padding: 52px 0;	
-		padding: 40px 0 35px 0;		
-		text-align: left;			
-		.df-car{
-			position: absolute;
-			bottom: -27px;
-			right:-7px;//70
-		}		
+		.df-bg-car{	 
+			.df-find-car{
+				position: relative;
+			// padding: 52px 0;	
+			padding: 40px 0 35px 0;		
+			text-align: left;			
+			.df-car{
+				position: absolute;
+				bottom: -27px;
+				right:-7px;//70
+			}		
+		}	
 	}
-	
-}
+
+	// no chanse
+	.df-nochanse{		
+		.df-find-car{
+			h3{
+			font-size: 36px;
+			}	
+			.df-car{				
+				bottom: -35px;
+				right: -6px;
+			}
+		}
+		
+	}
 
 }
 
