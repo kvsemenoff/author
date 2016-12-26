@@ -1,4 +1,4 @@
-<!doctype html>
+﻿octype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -42,6 +42,7 @@
 	<?php require_once('includes/Director_of_appeal.php'); ?>
 	<?php require_once('includes/findyourcar.php'); ?>
 	<?php require_once('includes/nochanse.php'); ?>
+	<?php require_once('includes/znakomstrah.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
