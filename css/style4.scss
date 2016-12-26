@@ -141,7 +141,7 @@ h4{
 .dd-header-top-wrap{
 	background: url('../img/dd-header.jpg') no-repeat top center;
 	width: 100%;
-	margin-top: -20px;
+	// margin-top: -20px;
 	.my-container{
 		max-width:1182px;
 		margin: 0 auto;
@@ -578,14 +578,24 @@ h4{
 }
 
 // select /////////////////////////
+// .dd-select-wrap-all{
+// 	max-width:638px;
+// 	margin: 0 auto;
+// }
+.dd-select-wrap{
+	text-align:center;
+	// float:left;
+}
 .az-select{
-	border: 2px solid #fff;
+	margin: 20px auto;
+	width: 242px;
+	border: 1px solid #fff;
 	border-radius:25px;
 	position: relative;
 	cursor: pointer;
 }
 select{
-	height: 36px;
+	height: 48px;
 	width: 100%;
 	border: none;
 	background: transparent;
@@ -611,9 +621,6 @@ select::-ms-expand {
 	background: black;
 	border-radius: 25px;
 	z-index: 6;
-	option{
-		color:red !important;
-	}
 }
 
 div[data-val]{
@@ -635,40 +642,48 @@ div[data-val]:hover{
 	top: 50%;
 	transform: translate(0, -50%);
 	right: 15px;
-	width: 13px;
-	height: 8px;
-	background: url(../img/select-arrow.png) no-repeat top left;
+	width: 16px;
+	height: 24px;
+	background: url(../img/str.png) no-repeat top left;
 	z-index: 1;
 }
-.az-select-focus:before{
-	background: url(../img/select-arrow-focus.png) no-repeat top left;
-}
+// .az-select-focus:before{
+// 	background: url(../img/select-arrow-focus.png) no-repeat top left;
+// }
 .az-select_style{
 	position: relative;
 	z-index: 2;
 }
 
-.button-1{
-	width:270px;
-	border:2px solid #CBD1D6;
+.button-2{
+	width:114px;
+	height:50px;
+	background:url(../img/ddb-2.png) no-repeat;
 	display:inline-block;
-	padding: 8px 20px;
-	width: 270px;
-	font-family: "Opensans-Semibold";
-	font-size: 14px;
-	color: #2E2F30;
-	position:relative;
+	a{
+		display: inline-block;
+		padding: 15px 34px;
+		font-family: "Opensans-Bold";
+		font-weight: 700;
+		font-size: 14px;
+		color: #2E2F30;
+		color:#fff;
+	}
+	a:hover{
+		border-radius:25px;
+		background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+	}
 
 }
-.button-1:after{
-	position:absolute;
-	content:"";
-	background:url(../img/kr-krest.png);
-	width:14px;
-	height:14px;
-	right:17px;
-	top:10px;
-}
+// .button-1:after{
+// 	position:absolute;
+// 	content:"";
+// 	// background:url(../img/kr-krest.png);
+// 	width:14px;
+// 	height:14px;
+// 	right:17px;
+// 	top:10px;
+// }
 //////////////////////////////////
 .tab-wrap{
 	margin-top: 50px;
@@ -703,32 +718,32 @@ div[data-val]:hover{
 	color: #fff;
 	display: inline-block;
 }
-.tab ul li a:hover, .tab ul li .active{
+.tab ul li a:hover, .tab ul li .dd-active{
 	background-color: #1e1d22;
 	background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 	border-radius:0px;
 }
-/*.tab ul li:first-child a:hover, .tab ul li:first-child .active {
+/*.tab ul li:first-child a:hover, .tab ul li:first-child .dd-active {
 	background-color: #1e1d22;
 	background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 	border-radius: 25px 0 0 25px;
 	}*/
-	.tab ul li:first-child a:hover, .tab ul li:first-child .active {
+	.tab ul li:first-child a:hover, .tab ul li:first-child .dd-active {
 		background-color: #1e1d22;
 		background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 		border-radius: 25px 25px 0px 0px;
 	}
-	.active{
+	.dd-active{
 		background-color: #1e1d22;
 		background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 		border-radius:25px 25px 0 0;
 	}
-/*.tab ul li:last-child a:hover, .tab ul li:last-child .active{
+/*.tab ul li:last-child a:hover, .tab ul li:last-child .dd-active{
 	background-color: #1e1d22;
 	background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 	border-radius: 0 25px 25px 0;
 	}*/
-	.tab ul li:last-child a:hover, .tab ul li:last-child .active{
+	.tab ul li:last-child a:hover, .tab ul li:last-child .dd-active{
 		background-color: #1e1d22;
 		background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 		border-radius: 0px 0px 25px 25px;
@@ -872,7 +887,7 @@ div[data-val]:hover{
 	a{
 		outline:none;	
 	}	
-	a:active, a:focus { outline: none; }
+	a:dd-active, a:focus { outline: none; }
 	@media only screen and (min-width : 320px) {
 	}
 
@@ -884,6 +899,19 @@ div[data-val]:hover{
 	}
 
 	@media only screen and (min-width : 768px) {
+
+		.dd-pt{
+			padding-top: 20px;
+		}
+		.dd-select-wrap-all{
+			max-width:658px;
+			margin: 0 auto;
+		}
+		.dd-select-wrap{
+			margin-left: 13px;
+			text-align:left;
+			float:left;
+		}
 
 		.dd-form-txt-2{
 			font-size: 16px !important;
@@ -960,7 +988,7 @@ div[data-val]:hover{
 			display: inline-block;
 			margin-left: -.31em;
 		}
-		.tab ul li:first-child a:hover, .tab ul li:first-child .active {
+		.tab ul li:first-child a:hover, .tab ul li:first-child .dd-active {
 			background-color: #1e1d22;
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 			border-radius: 25px 0 0 25px;
@@ -970,7 +998,7 @@ div[data-val]:hover{
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 			border-radius: 25px 0 0 25px;
 		}
-		.tab ul li:last-child a:hover, .tab ul li:last-child .active{
+		.tab ul li:last-child a:hover, .tab ul li:last-child .dd-active{
 			background-color: #1e1d22;
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 			border-radius: 0 25px 25px 0;
@@ -980,7 +1008,7 @@ div[data-val]:hover{
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 			border-radius: 0 25px 25px 0;
 		}
-		.active{
+		.dd-active{
 			background-color: #1e1d22;
 			background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
 			border-radius:0px;
