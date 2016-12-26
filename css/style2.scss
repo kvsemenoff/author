@@ -379,6 +379,94 @@ a:active, a:focus { outline: none; }
 }
 
 @media only screen and (min-width : 992px) {
+	.db-all-count{
+	padding: 100px 0 150px 0;
+	
+	.db-apple-h2{
+		font-size: 35px !important;
+	}
+
+}
+.db-lorem{
+text-align: left;
+
+width: 556px;
+font-size: 16px !important;
+
+	}
+
+
+
+	.db-fourth{
+	margin-top: -9px !important;
+margin-left: 29px !important;
+	a{
+	width: 290px;
+	font-size: 15px !important;
+	}
+}
+
+.db-count-two{
+	.db-play{
+margin-left: 39px;
+padding:150px 0px !important;
+border-radius: 52px !important;
+	img{
+margin-top: 30px !important;
+width:150px !important;
+height:150px !important;
+	}
+}
+}
+
+.db-all-yourcar{
+	padding: 37px 0 120px 0;
+
+	.db-container-yourcar{
+
+
+		.db-h-yourcar{
+			padding-bottom: 66px;
+			h3{
+				font-size:36px;
+			}
+		}
+		.db-all-content{
+			margin:0 auto;
+			}
+		.db-left-yourcar{
+			margin-left:223px!important;
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+
+			.db-left-one{
+				float:left;
+			}
+			.db-left-two{
+			}
+		}
+		.db-middle-yourcar{
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+			margin-left:153px !important;
+			line-height: 30px;
+		}
+		.db-right-yourcar{
+			display: inline-block;
+			padding:0 !important;
+			float:left;
+			margin-left:143px !important;
+			.db-left-one{
+				float:left;
+			}
+			.db-left-two{	
+			}
+		}
+	}
+
+}
 	.tab ul{
 		width: unset;
 		display: inline-block;
@@ -531,94 +619,7 @@ a:active, a:focus { outline: none; }
 	outline: 1px solid red;
 }
 @media only screen and (min-width : 1248px) {
-	.db-all-count{
-	padding: 150px 0 150px 0;
 	
-	.db-apple-h2{
-		font-size: 35px !important;
-	}
-
-}
-.db-lorem{
-text-align: left;
-padding: 15px 58px 0 29px;
-width: 556px;
-font-size: 16px !important;
-
-	}
-
-
-
-	.db-fourth{
-	margin-top: -9px !important;
-margin-left: 29px !important;
-	a{
-	width: 290px;
-	font-size: 15px !important;
-	}
-}
-
-.db-count-two{
-	.db-play{
-margin-left: 39px;
-padding:150px 0px !important;
-border-radius: 52px !important;
-	img{
-margin-top: 30px !important;
-width:150px !important;
-height:150px !important;
-	}
-}
-}
-
-.db-all-yourcar{
-	padding: 37px 0 120px 0;
-
-	.db-container-yourcar{
-
-
-		.db-h-yourcar{
-			padding-bottom: 66px;
-			h3{
-				font-size:36px;
-			}
-		}
-		.db-all-content{
-			margin:0 auto;
-			}
-		.db-left-yourcar{
-			margin-left:223px!important;
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-
-			.db-left-one{
-				float:left;
-			}
-			.db-left-two{
-			}
-		}
-		.db-middle-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:153px !important;
-			line-height: 30px;
-		}
-		.db-right-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:143px !important;
-			.db-left-one{
-				float:left;
-			}
-			.db-left-two{	
-			}
-		}
-	}
-
-}
 
 
 
