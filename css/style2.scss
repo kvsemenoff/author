@@ -217,7 +217,7 @@ height:150px !important;
 }
 
 .db-all-yourcar{
-	padding: 37px 0 120px 0;
+	padding: 100px 0;
 
 	.db-container-yourcar{
 
@@ -232,29 +232,21 @@ height:150px !important;
 			margin:0 auto;
 			}
 		.db-left-yourcar{
-			margin-left:223px!important;
-			display: inline-block;
+			outline: 1px solid red;
 			padding:0 !important;
-			float:left;
 
 			.db-left-one{
 				float:left;
 			}
 			.db-left-two{
+			
 			}
 		}
 		.db-middle-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:153px !important;
-			line-height: 30px;
+			
 		}
 		.db-right-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:143px !important;
+			
 			.db-left-one{
 				float:left;
 			}
