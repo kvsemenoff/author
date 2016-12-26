@@ -24,8 +24,10 @@
 			<span>+7(812)409-47-66</span>
 			<span>Пн.-Пт. 9:00 - 18:00</span>
 		</div>
-		<div class="dd-head-button">
-			<a href="#">Заказать звонок</a>
+		<div class="dd-head-button-wr">
+			<div class="dd-head-button">
+				<a href="#">Заказать звонок</a>
+			</div>
 		</div>
 	</div>
 	<div class="my-container">

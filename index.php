@@ -1,4 +1,4 @@
-﻿octype html>
+﻿
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -35,8 +35,12 @@
 	<?php require_once('includes/yourcar.php'); ?>
 	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/neuspel.php'); ?>
-	<?php require_once('includes/history_one_client.php'); ?>
+
+	<?php require_once('includes/podobrat_zashitu.php'); ?>
+
+	
 	<?php require_once('includes/auto.php'); ?>	
+	<?php require_once('includes/history_one_client.php'); ?>
 	<?php require_once('includes/photos.php'); ?>
 	<?php require_once('includes/video.php'); ?>
 	<?php require_once('includes/command.php'); ?>

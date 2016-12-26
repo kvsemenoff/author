@@ -80,11 +80,11 @@
 	text-align: center;
 	
 	.db-container-yourcar{
-			
+			padding:50px 0;
 
 		.db-h-yourcar{
 			h3{
-				padding-top:50px;
+				
 				font-size:36px;
 			}
 		}
@@ -124,6 +124,47 @@
 }
 
 }
+.db-history_content{
+	text-align:center;
+	color:#fff;
+	padding:20px 0;
+	font-family: "OpenSans-Regular";
+	.db-history-h2{
+		h2{
+			font-size: 36px;
+		font-weight: 700;
+		padding-bottom: 20px;
+		}
+		
+	}
+	.db-history-block{
+		.db-history-block-one{
+			padding:20px 0;
+			img{
+				margin:0 auto;
+			}
+		}
+		.db-history-block-two{
+			.db-span-one{
+				font-size:24px;
+				font-weight: 700;
+			
+
+
+			}
+			.db-span-two{
+				color: #9fa3a7;
+				font-size: 14px;
+				font-weight: 400;
+				display: block;
+				padding-top: 10px;
+			}
+		}
+	}
+
+}
+	
+
 @media only screen and (min-width : 320px) {
 	
 }
@@ -135,10 +176,8 @@
 }
 
 @media only screen and (min-width : 992px) {
-}
-@media only screen and (min-width : 1248px) {
 	.db-all-count{
-	padding: 150px 0 150px 0;
+	padding: 100px 0 150px 0;
 	
 	.db-apple-h2{
 		font-size: 35px !important;
@@ -147,7 +186,7 @@
 }
 .db-lorem{
 text-align: left;
-padding: 15px 58px 0 29px;
+
 width: 556px;
 font-size: 16px !important;
 
@@ -178,7 +217,7 @@ height:150px !important;
 }
 
 .db-all-yourcar{
-	padding: 37px 0 120px 0;
+	padding: 100px 0;
 
 	.db-container-yourcar{
 
@@ -193,29 +232,20 @@ height:150px !important;
 			margin:0 auto;
 			}
 		.db-left-yourcar{
-			margin-left:223px!important;
-			display: inline-block;
 			padding:0 !important;
-			float:left;
 
 			.db-left-one{
 				float:left;
 			}
 			.db-left-two{
+			
 			}
 		}
 		.db-middle-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:153px !important;
-			line-height: 30px;
+			padding-bottom:0;
 		}
 		.db-right-yourcar{
-			display: inline-block;
-			padding:0 !important;
-			float:left;
-			margin-left:143px !important;
+			padding-bottom:0px !important;
 			.db-left-one{
 				float:left;
 			}
@@ -225,6 +255,109 @@ height:150px !important;
 	}
 
 }
+	
+	.db-history_content{
+	text-align:left;
+	padding:115px 0;
+	
+	
+	.db-history-h2{
+		padding-bottom: 33px;
+		text-align: center;
+	}
+	.db-history-block{
+		width:979px;
+		margin: 0 auto;
+
+		.db-history-block-one{
+			padding:0px;
+			float:left;
+		    
+		
+		}
+		
+		.db-history-block-two{
+			float:left;
+		 
+		    display:block;
+			.db-span-one{
+				font-size:24px;
+				font-weight: 700;
+			
+
+			}
+
+			.db-span-two{
+				color: #9fa3a7;
+				font-size: 14px;
+				font-weight: 400;
+				display: block;
+				padding-top: 10px;
+			}
+		}
+	}
+.db-history-block-first{
+	.db-history-block-one{
+		padding-top: 20px;
+	}
+	.db-history-block-two{
+		
+		padding: 58px 0 0 40px;
+	}
+	}
+.db-history-block-second{
+	.db-history-block-one{
+		padding-top:11px; 
+	}
+	.db-history-block-two{
+		display:block;
+		padding: 48px 0 0 40px;
+	}
+	}
+.db-history-block-third{
+	.db-history-block-one{
+		padding-top:11px; 
+	}
+	.db-history-block-two{
+		display:block;
+		padding: 48px 0 0 40px;
+	}
+	}
+	.db-history-block-fourth{
+	.db-history-block-one{
+		padding-top:11px; 
+	}
+	.db-history-block-two{
+		display:block;
+		padding: 48px 0 0 40px;
+	}
+	}
+	.db-history-block-fifth{
+	.db-history-block-one{
+		padding-top:11px; 
+	}
+	.db-history-block-two{
+		display:block;
+		padding: 48px 0 0 40px;
+	}
+	}
+	.db-history-block-sixth{
+	.db-history-block-one{
+		padding-top:11px; 
+	}
+	.db-history-block-two{
+		display:block;
+		padding: 48px 0 0 40px;
+	}
+	}
+
+}
+}
+
+@media only screen and (min-width : 1248px) {
+	
+
+
 
 }
 
