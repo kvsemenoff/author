@@ -35,6 +35,7 @@
 	<?php require_once('includes/yourcar.php'); ?>
 	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/neuspel.php'); ?>
+	<?php require_once('includes/podobrat_zashitu.php'); ?>
 	<?php require_once('includes/history_one_client.php'); ?>
 	<?php require_once('includes/auto.php'); ?>	
 	<?php require_once('includes/photos.php'); ?>
