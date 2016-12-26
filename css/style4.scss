@@ -58,16 +58,25 @@ h4{
 }
 
 .my-text-area{
+	margin-top: 20px;
+	width: 100%;
 	min-height: 120px;
 	border: 2px solid #e6e4e3;
 	border-radius: 25px;
-	padding: 18px 28px;
+	padding: 0px 24px;
 	background: #fff;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 48px;
 	color: #666;
+	resize:none;
 	font-family: "OpenSans-Regular";
+}
+.my-input2, .my-input3{
+	text-align:left;
+}
+.my-input3{
+	margin-top: 20px;
 }
 .form-wrap-main{
 	background-color: white;
@@ -101,6 +110,9 @@ h4{
 	line-height: 18px;
 	color: #ef2e31;
 	font-family: "OpenSans-Regular";
+}
+.form-title2{
+	color:#292929;
 }
 .dd-form-txt{
 	font-family: "OpenSans-Regular";
@@ -228,19 +240,104 @@ h4{
 				font-weight: 700;
 			}
 		}
-		.dd-head-button{
-			a{
-				display: inline-block;
-				border: 2px solid #F35A33;
-				border-radius: 25px;
-				padding: 14px 36px;
-				font-size: 14px;
-				font-weight: 700;
-				font-family: "OpenSans-Regular";
-				color:#fff;
+		.dd-head-button-wr{
+			padding-top: 10px;
+			width: 206px;
+			position:relative;
+			margin: 0 auto;
+			.dd-head-button{
+				width: 206px;
+				margin: 0 auto;
+				padding-top: 20px;
+				background: url(/img/ddbt.png)no-repeat center;
+				a{
+					color: white;
+					font-size: 14px; 
+					padding: 15px 40px;
+					border-radius: 25px;
+					display: inline-block;
+					transition: all 0.5s;
+					font-family: "OpenSans-Bold";
+				}
+				a:hover{
+					background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+					transition: all 0.5s;
+				// padding: 14px 26px;
 			}
 		}
 	}
+}
+
+}
+.dd-footer{
+	padding-bottom:90px;
+}
+.dd-footer-bottom{
+	background: #1E1D22;
+	padding: 60px 0 109px;
+	.my-container{
+		max-width:1182px;
+		margin: 0 auto;
+		.dd-logo, .dd-logo-info, .dd-phone, .dd-head-button{
+			padding-bottom:20px;
+			text-align: center;
+		}
+		.dd-logo{
+			padding-top: 20px;
+		}
+		.dd-logo-info{
+			width: 250px;
+			margin: 0 auto;
+			span{
+				font-family: "OpenSans-Regular";
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 22px;
+				color:#fff;
+			}
+		}
+		.dd-phone{
+			span{
+				font-family: "OpenSans-Regular";
+				color:#fff;
+				font-weight: 400;
+				display: block;
+			}
+			span:first-child{
+				font-size: 16px;
+			}
+			span:nth-child(2){
+				font-size: 20px;
+				font-weight: 700;
+			}
+		}
+		.dd-head-button-wr{
+			padding-top: 10px;
+			width: 206px;
+			position:relative;
+			margin: 0 auto;
+			.dd-head-button{
+				width: 206px;
+				margin: 0 auto;
+				padding-top: 20px;
+				background: url(/img/ddbt.png)no-repeat center;
+				a{
+					color: white;
+					font-size: 14px; 
+					padding: 15px 40px;
+					border-radius: 25px;
+					display: inline-block;
+					transition: all 0.5s;
+					font-family: "OpenSans-Bold";
+				}
+				a:hover{
+					background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+					transition: all 0.5s;
+				// padding: 14px 26px;
+			}
+		}
+	}
+}
 }
 
 // Конец Header top --
@@ -440,7 +537,29 @@ h4{
 }
 
 // Конец - не успел защитить
-
+.dd-form-wrap{
+	.dd-car-form{
+		position:relative;
+		.dd-car-form-title{
+			text-align: center;
+			max-width: 584px;
+			margin: 0 auto;
+			padding: 0px 15px;
+			span{
+				font-family: "OpenSans-Regular";
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 30px;
+				color:#fff;
+			}
+		}
+		.dd-car-form-img{
+			display: none;
+			position:absolute;
+			top: 228px;
+		}
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -454,8 +573,15 @@ h4{
 
 @media only screen and (min-width : 768px) {
 
-	
-
+	.dd-form-txt-2{
+		font-size: 16px !important;
+		width: 346px !important;	
+	}
+	.form-title2{
+		font-size:30px !important;
+		font-weight: 700;
+		line-height: 18px;
+	}
 	.dd-header-top-wrap{
 		height: 990px;
 		.my-container{
@@ -497,18 +623,66 @@ h4{
 		padding-top: 4px;
 		padding-bottom: 18px !important;
 	}
+	.my-text-area{
+		// outline: 1px solid black;
+		resize: none;
+	}
 	.my-input{
+		width: 340px;
+	}
+	.my-text-area{
 		width: 340px;
 	}
 }
 
 @media only screen and (min-width : 992px) {
+
 	.dd-header-top-wrap {
 		height: 1023px;
+		.my-container{
+			.dd-head-button-wr{
+				.dd-head-button{
+					position:absolute;
+					top:-13px;
+				}
+			}
+		}
+	}
+	.dd-footer-bottom{
+		.my-container{
+			.dd-head-button-wr{
+				.dd-head-button{
+					position:absolute;
+					top:-13px;
+				}
+			}
+		}
 	}
 }
 
 @media only screen and (min-width : 1200px) {
+	.dd-form-wrap{
+		.dd-car-form{
+			float: left;
+			position:relative;
+			.dd-car-form-title{
+				text-align: center;
+				max-width: 588px;
+				margin: 42px 39px;
+				padding: 0px 15px;
+				span{
+					font-size: 24px;
+					font-weight: 700;
+					line-height: 30px;
+				}
+			}
+			.dd-car-form-img{
+				display: block;
+				position:absolute;
+				top: 188px;
+			}
+		}
+	}
 	.dd-neuspel-wrap{
 		position:relative;
 		background: url('../img/dd-bandit.jpg') no-repeat top center;
@@ -630,10 +804,41 @@ h4{
 				// padding-left: 127px;
 				padding-left: 109px;
 			}
-			.dd-head-button{
+			.dd-head-button-wr{
 				float: right;
-				padding-top: 11px;
+				padding-top: 0px;
 			}
+		}
+	}
+	.dd-footer-bottom{
+		.my-container{
+			position:relative;
+			.dd-logo, .dd-logo-info{
+				float:left;
+				padding-bottom:28px;
+			}
+			.dd-logo-info{
+				width: 574px;
+				padding-left: 2px;
+    padding-top: 17px;
+			}
+			.dd-logo{
+				padding-top: 9px;
+				// width: 341px;
+				text-align: left;
+			}
+			.dd-phone{
+				float: left;
+				text-align: right;
+				// padding-left: 127px;
+				// padding-left: 109px;
+			}
+			.dd-head-button-wr{
+				float: right;
+				padding-top: 0px;
+			}
+		
+			
 		}
 	}
 }
