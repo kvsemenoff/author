@@ -80,11 +80,11 @@
 	text-align: center;
 	
 	.db-container-yourcar{
-			
+			padding:50px 0;
 
 		.db-h-yourcar{
 			h3{
-				padding-top:50px;
+				
 				font-size:36px;
 			}
 		}
@@ -232,7 +232,6 @@ height:150px !important;
 			margin:0 auto;
 			}
 		.db-left-yourcar{
-			outline: 1px solid red;
 			padding:0 !important;
 
 			.db-left-one{
@@ -243,10 +242,10 @@ height:150px !important;
 			}
 		}
 		.db-middle-yourcar{
-			
+			padding-bottom:0;
 		}
 		.db-right-yourcar{
-			
+			padding-bottom:0px !important;
 			.db-left-one{
 				float:left;
 			}
