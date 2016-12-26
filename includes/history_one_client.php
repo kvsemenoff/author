@@ -64,7 +64,7 @@
 <div class="db-history-block-two">
 	<span class="db-span-one">15:00 - Сдача работ</span><br>
 	<span class="db-span-two">После завершения мы предоставили Сергею пожизненную, финансовую гарантию <br> и техническую поддержку</span>
-</div>	
+</div>
+<div class="clearfix"></div>	
 </div>
 </div>
-<div class="clearfix"></div>
