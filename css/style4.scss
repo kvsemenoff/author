@@ -6,6 +6,7 @@
 
 body{
 	background: #28272D;
+	// overflow-x:hidden;
 }
 form{
 	margin-top:20px;
@@ -507,7 +508,7 @@ h4{
 				}
 			}
 			.dd-what-happend{
-				width: 100%;
+				width: 80%;
 				margin: 0 auto;
 				background: #1E1D22;
 				border-radius: 50px;
@@ -520,7 +521,7 @@ h4{
 			.dd-neuspel-txt{
 				padding-bottom: 26px;
 				span{
-					font-family: "OpenSans-Regular";
+					font-family: "OpenSans-Bold";
 					font-size: 18px;
 					font-weight: 700;
 					line-height: 24px;
