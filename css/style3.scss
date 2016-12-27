@@ -37,8 +37,8 @@
 }
 
 .dc-ford {
-    top: 37%; 
-    left: 44%; 
+    top: 35%; 
+    left: 38%; 
     position: absolute;
     color: white;
     font-family: "OpenSans";
@@ -47,12 +47,55 @@
     text-align: center;
 }
 
+.dc-chances {
+    top: 24%; 
+    left: 20%; 
+    position: absolute;
+    color: white;
+    font-family: "OpenSans";
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dc-chances-2 {
+    top: 34%; 
+    left: 22%; 
+    position: absolute;
+    color: white;
+    font-family: "OpenSans";
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .dc-round {
     top: 45%; 
-    left: 45%; 
+    left: 42%; 
     position: absolute;
     width: 50px;
     height: 50px;
+}
+
+.dc-play {
+    padding-left: 10%;
+    padding-right: 10%;    
+    margin: auto;
+}
+
+.dc-text {
+    padding-left: 10%;
+    padding-right: 10%;    
+    margin: auto;
+    color: white;
+}
+
+.dc-bg-2 {
+	padding: 100px 0px 100px 0px;
+	margin-top: 50px;
+	background: #464551 no-repeat top center;
+	width: 100%;
+	background-size: cover;
 }
 
 @media only screen and (min-width : 320px) {
@@ -73,12 +116,35 @@
 	    width: 70px;
 	    height: 70px;
     }
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 18%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 20%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
 }
 
 @media only screen and (min-width : 480px) {
     .dc-ford {
         top: 36%; 
-        left: 42%; 
+        left: 44%; 
 	    position: absolute;
 	    color: white;
 	    font-family: "OpenSans";
@@ -88,10 +154,32 @@
      
      .dc-round {
 	    top: 42%; 
-	    left: 40%; 
+	    left: 42%; 
 	    position: absolute;
 	    width: 100px;
 	    height: 100px;
+	}
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 26%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 28%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
 	}
 }
 
@@ -113,6 +201,29 @@
 	    width: 100px;
 	    height: 100px;
 	}
+
+	.dc-chances {
+	    top: 24%; 
+	    left: 26%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 34%; 
+	    left: 28%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 14px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -126,7 +237,7 @@
 
     .dc-ford {
         top: 30%; 
-        left: 45%; 
+        left: 43%; 
 	    position: absolute;
 	    color: white;
 	    font-family: "OpenSans";
@@ -135,11 +246,33 @@
      }
 
      .dc-round {
-	    top: 40%; 
-	    left: 40%; 
+	    top: 36%; 
+	    left: 38%; 
 	    position: absolute;
 	    width: 134px;
 	    height: 134px;
+	}
+
+	.dc-chances {
+	    top: 18%; 
+	    left: 29%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
+	}
+
+	.dc-chances-2 {
+	    top: 28%; 
+	    left: 31%; 
+	    position: absolute;
+	    color: white;
+	    font-family: "OpenSans";
+	    font-size: 16px;
+	    font-weight: 700;
+	    text-align: center;
 	}
 }
 
