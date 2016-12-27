@@ -9,16 +9,12 @@
 			</div>
     		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
  				<div class="dc-count-two">
-					<div class="dc-play">
- 					    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
- 					</div>    
+				    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
  				</div>
  		    </div>
     		<div class="col-md-6 col-xs-12 col-lg-6 col-sm-6">
  				<div class="dc-count-two">
-					<div class="dc-play">
- 					    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
- 				    </div>
+				    <a href="#"><img src="img/dc-auto50.png" alt="play" class="img-responsive"><div class="dc-ford">Ford Focus</div><img src="img/dc-round.png" alt="play" class="img-responsive dc-round"></a>
  		        </div> 	
  		    </div>	    
 		</div>

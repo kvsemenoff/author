@@ -15,7 +15,7 @@
 		</div>
 		<div class="dd-head-button-wr">
 			<div class="dd-head-button">
-				<a href="#">Заказать звонок</a>
+				<a href="#log-in" name="modal">Заказать звонок</a>
 			</div>
 		</div>
 	</div>

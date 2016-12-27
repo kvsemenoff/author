@@ -1,7 +1,7 @@
- <section class="db-all-count">
- 	<div class="container">
- 		<div class="row">
- 			<div class="col-md-6">
+<div class="clearfix"></div>
+<section class="db-all-count">
+ 
+ 			
  				<div class="db-count-one">
  					<div class="db-appeal">
  					<h2 class="db-apple-h2">Обращение директора установочного центра</h2>
@@ -14,13 +14,18 @@
  								<span><a href="">Защитите мой автомобиль</a></span>
  						</div>
  					</div>
- 				</div>
- 				<div class="col-md-6">
+ 			
+ 				
  					<div class="db-count-two">
 					<div class="db-play">
- 					<a href="#"><img src="img/play.png" alt="play" class="img-responsive"></a>
+ 					<a href="#">
+ 					<div class="db-play-count">
+ 						
+ 					</div>
+ 					</a>
  					</div>
  				</div>
- 			</div>
- 		</div>
+ 		<div class="clearfix"></div>
+
  	</section>
+ 	

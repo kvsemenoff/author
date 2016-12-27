@@ -1,5 +1,5 @@
 <div class="my-container">
-	<div class="row">
+	<div class="row2">
 		<div class="col-md-12">
 			<div class="col-md-12">
 				<h3 class="dd-center">Подберите защиту для Вашего автомобиля</h3>
@@ -365,6 +365,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
 </div>
 
 
