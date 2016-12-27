@@ -31,7 +31,7 @@
 				</div>
 				<div class="df-b">
 					<span class="df-button">
-					<a href="#">Получить консультацию БЕСПЛАТНО</a>
+					<a href="#consult" name="modal">Получить консультацию БЕСПЛАТНО</a>
 					</span>
 				</div>
 			</div>
