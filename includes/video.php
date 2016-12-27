@@ -54,7 +54,7 @@
 			</div>
 				<div class="df-b">
 					<span class="df-button">
-						<a href="#">Получить консультацию БЕСПЛАТНО</a>
+						<a href="#log-in" name="modal">Получить консультацию БЕСПЛАТНО</a>
 					</span>
 				</div>
 		</div>
