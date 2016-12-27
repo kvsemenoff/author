@@ -1,14 +1,26 @@
 <div id="map"></div>
-    <script>
+<script>
 
-var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 59.9343, lng: 30.3351},
-    zoom: 20
-  });
-}
+    var map;
 
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgR50HZjEiNxWZy2_KxvELdCS6PXZfvlU&callback=initMap"
+    var myLatLng = {lat: 59.940468, lng: 30.333598}
+    var myLatLng1 = {lat: 59.941016, lng: 30.333416}
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: myLatLng1,
+        zoom: 16
+      });
+
+      var image = 'img/dc-marker.png';
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        icon: image
+      });
+
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgR50HZjEiNxWZy2_KxvELdCS6PXZfvlU&callback=initMap"
         async defer></script>

@@ -12,8 +12,8 @@
 //==========forfree
 
 .dc-bg{
-	padding: 50px 0px 15px 0px;
-	margin-top: 50px;
+	padding: 0px 0px 15px 0px;
+	margin-top: 0px;
 	background: url("../img/dc-auto.jpg") no-repeat top center;
 	width: 100%;
 	background-size: cover;
@@ -27,7 +27,7 @@
 		color:#fff;
 	}
 	h4{
-		font-family: "OpenSans-ExtraBold";
+		font-family: "OpenSans-Bold";
 		color:#fff;
 	}
 }
@@ -77,12 +77,6 @@
     height: 50px;
 }
 
-.dc-play {
-    padding-left: 10%;
-    padding-right: 10%;    
-    margin: auto;
-}
-
 .dc-text {
     padding-left: 10%;
     padding-right: 10%;    
@@ -103,8 +97,9 @@
 }
 
 #map {
-    height: 128px;
+    height: 700px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 
@@ -114,7 +109,8 @@
         left: 40%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -157,7 +153,8 @@
         left: 44%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -199,7 +196,8 @@
         left: 43%; 
 	    position: absolute;
 	    color: white;
-	    font-family: OpenSans;
+	    font-family: "OpenSans-Bold";
+	    letter-spacing: 2px;
 	    font-size: 16px;
 	    font-weight: 700;
      }
@@ -238,52 +236,96 @@
 
 @media only screen and (min-width : 992px) {
 	.dc-bg{
-		padding: 50px 0px 15px 0px;
+		padding: 0px 0px 0px 0px;
 		background-size: cover;
+		height: 765px;
+		margin-bottom: 0;
 	}	
+
+	.dc-bg-2 {
+		padding: 100px 0px 100px 0px;
+		margin-top: 50px;
+		background: #464551 no-repeat top center;
+		width: 100%;
+		background-size: cover;
+	}
+
     .dc-count-two {
-	    width: 100%;
+	    width: 100%;	    
+        padding: 0px 0px 0px 0px;
     }
 
+	.dc-scenaries{
+		text-align: center;
+		h3{
+			margin-top: 85px;
+			font-family: "OpenSans-Bold";
+			color:#fff;
+		}
+		h4{
+			font-family: "OpenSans-Bold";
+			margin-bottom: 85px;						
+			color:#fff;
+		}
+	}
+
     .dc-ford {
-        top: 30%; 
+        top: 25%; 
         left: 43%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
 	    font-size: 16px;
 	    font-weight: 700;
+	    letter-spacing: 2px;
+	    line-height: 15px;
      }
 
      .dc-round {
 	    top: 36%; 
-	    left: 38%; 
+	    left: 40%; 
 	    position: absolute;
-	    width: 134px;
-	    height: 134px;
+	    width: 124px;
+	    height: 124px;
+	}
+
+	.dc-bg-2 {
+		padding: 0px 0px 50px 0px;
+		margin-top: 0px;
+		background: #464551 no-repeat top center;
+		width: 100%;
+		background-size: cover;
 	}
 
 	.dc-chances {
-	    top: 18%; 
-	    left: 29%; 
+	    top: 20%; 
+	    left: 26%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
 	    font-size: 16px;
 	    font-weight: 700;
 	    text-align: center;
+	    letter-spacing: 2px;
 	}
 
 	.dc-chances-2 {
-	    top: 28%; 
-	    left: 31%; 
+	    top: 27%; 
+	    left: 28%; 
 	    position: absolute;
 	    color: white;
-	    font-family: "OpenSans";
+	    font-family: "OpenSans-Bold";
 	    font-size: 16px;
 	    font-weight: 700;
 	    text-align: center;
+	    letter-spacing: 2px;
 	}
+
+    .dc-text {
+	    text-align: justify;
+	    margin-left: -50px;
+	    margin-top: -10px;
+    }
 }
 
 @media only screen and (min-width : 1248px) {
