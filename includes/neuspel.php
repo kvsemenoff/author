@@ -38,7 +38,7 @@
 				<span>Защитите свой автомобиль сегодня!</span>
 			</div>
 			<div class="dd-neuspel-button">
-				<a class="form-button" href="#">Получить консультацию БЕСПЛАТНО</a>
+				<a class="form-button" href="#consult" name="modal">Получить консультацию БЕСПЛАТНО</a>
 			</div>
 			<div class="clearfix"></div>
 			<div class="dd-maska">

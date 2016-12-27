@@ -21,4 +21,44 @@
 	</div>
 </section>
 
+<div id="mask"></div>
+<div id="consult" class="window">
+	<div class="dd-form-wrap">
+		<div class="dd-close"></div>
+		<form class="form3" action="#" method="post">
+			<div class="form-wrap-main">
+				<div class="form-wrap-red">
+					<div class="form-title form-title2 dd-padding-bottom">
+						Получить консультацию
+					</div>
+					<div class="dd-form-txt dd-form-txt-2 dd-padding-bottom">
+						Напишите вопрос, сове имя и телефон и мы ответим на них в течение 3 часов!
+					</div>
+					<div class="dd-input-wrap dd-padding-bottom">
+						<input class="my-input my-input2" name="uname" type="text" placeholder="Введите имя">
+						<input class="my-input my-input3"  name="email" type="text" placeholder="Введите e-mail">
+						<textarea class="my-text-area" name="text" placeholder="Введите свой вопрос"></textarea>
+					</div>
+					<a class="form-button" href="#">Задать вопрос</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
 
+<div id="thanks" class="window">
+	<div class="dd-form-wrap">
+		<div class="form-wrap-main">
+			<div class="dd-close"></div>
+			<div class="form-wrap-red">
+				<div class="form-title dd-padding-bottom">
+					Спасибо за заявку!
+				</div>
+				<div class="dd-form-txt dd-padding-bottom">
+					Наш менеджер свяжется с вами в ближайшее время!
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<a href="#thanks" name="modal"></a>
