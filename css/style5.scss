@@ -46,7 +46,11 @@
 			li{
 				font-size: 14px;
 				// display: block;
-				background: url(/img/df-li.png)no-repeat left top 8px;
+				// background: url(/img/df-li.png)no-repeat left top 8px;
+				background-image: url(/img/df-li.png);
+				background-repeat: no-repeat;
+				background-position: left top 8px;
+				-webkit-background-position: left top 8px;
 				text-align: left;
 				font-family: "OpenSans-Regular";
 				padding-left: 30px;
@@ -130,6 +134,7 @@
 			}
 			a:hover{
 				background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+				 background: -webkit-linear-gradient(left, #ef2e31 0%, #fec337 100%);	
 				transition: all 0.5s;
 			}
 		}
@@ -403,6 +408,7 @@
 	h2{
 		margin-bottom: 25px;//72
 		font-size: 36px;
+		color: #fff;
 	}
 	.df-left-video{
 		// float: left;
