@@ -40,6 +40,7 @@
 
 	
 	<?php require_once('includes/auto.php'); ?>	
+	<?php require_once('includes/trust.php'); ?>	
 	<?php require_once('includes/history_one_client.php'); ?>
 	<?php require_once('includes/photos.php'); ?>
 	<?php require_once('includes/video.php'); ?>
