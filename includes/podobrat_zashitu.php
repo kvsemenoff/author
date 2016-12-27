@@ -73,7 +73,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -91,7 +91,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -109,7 +109,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -127,7 +127,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -149,7 +149,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -167,7 +167,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -185,7 +185,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -203,7 +203,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -225,7 +225,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -243,7 +243,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -261,7 +261,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -279,7 +279,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -301,7 +301,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -319,7 +319,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -337,7 +337,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -355,7 +355,7 @@
 										<span class="third-two">Полное описание</span>		
 									</div>
 									<div class="fourth">
-										<span><a href="">Заказать установку</a></span>
+										<span><a href="#log-in" name="modal">Заказать установку</a></span>
 									</div>
 								</div>
 							</div>
@@ -384,7 +384,7 @@
 			<span class="third-one">11 970<span>руб.</span></span> <br>			
 		</div>
 		<div class="fourth">
-			<span><a href="">Заказать установку</a></span>
+			<span><a href="#log-in">Заказать установку</a></span>
 		</div>
 	</div>	
 </div>
