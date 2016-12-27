@@ -33,23 +33,18 @@
 
 	<?php require_once('includes/header.php'); ?>	
 	<?php require_once('includes/yourcar.php'); ?>
+
 	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/neuspel.php'); ?>
 
 	<?php require_once('includes/podobrat_zashitu.php'); ?>
-
-	
-		
-	
-
-	
-	
-
-   
-	
 	<?php require_once('includes/findyourcar.php'); ?>
+	
 	<?php require_once('includes/Director_of_appeal.php'); ?>
 	<?php require_once('includes/auto.php'); ?>
+
+
+
 	<?php require_once('includes/trust.php'); ?>
 	<?php require_once('includes/nochanse.php'); ?>
 	<?php require_once('includes/history_one_client.php'); ?>
