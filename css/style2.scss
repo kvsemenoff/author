@@ -9,7 +9,7 @@
 	color:#fff;
 	text-align: center;
 	font-family: "OpenSans-Regular";
-	padding:20px 0px;
+	padding:30px 0px;
 
 	.db-count-one{
 		padding:20px 20px;
@@ -20,9 +20,11 @@
 			}
 		}
 		.db-lorem{
-			margin-bottom:50px;
+			padding-bottom:50px;
 			line-height: 30px;
 			font-size:14px;
+			margin: 0 auto;
+			text-align: center;
 		}
 		.db-fourth{
 			text-align: center;
@@ -54,21 +56,29 @@
 		}
 	}
 	.db-count-two{
-		padding:30px 0px 30px 0px;
-		max-width: 580px;
-		width: 100%;
-		max-height: 465px;
-		margin: 0 auto;
-		.db-play{
+padding: 0px 10%;
+margin:0 auto;
 
-			background-color: #1e1d22;
-			border-radius: 20px;
-			padding: 80px 0px;
-			img{
-				margin-top: 20px;
-				display: inline-block;
-				width:100px;
-				height:100px;
+		.db-play{
+			
+		
+		margin: 0 auto;
+		background-color: #1e1d22;
+		border-radius: 20px;
+		padding: 100px 0;
+			.db-play-count{
+				background-image: url('../img/play.png');
+				background-size: cover;
+				width: 100px;
+				height: 100px;
+				margin: 0 auto;	
+			}
+			.db-play-count:hover{
+				background-image: url('../img/play2.png');
+				background-size: cover;
+				width: 100px;
+				height: 100px;
+				margin: 0 auto;	
 			}
 		} 
 	}
@@ -170,51 +180,20 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.db-play{
+			
+		padding: 120px 0 !important;
+	}
 }
 
 @media only screen and (min-width : 768px) {
+	.db-play{
+			
+		padding: 150px 0 !important;
+	}
 }
 
 @media only screen and (min-width : 992px) {
-	.db-all-count{
-	padding: 100px 0 150px 0;
-	
-	.db-apple-h2{
-		font-size: 35px !important;
-	}
-
-}
-.db-lorem{
-text-align: left;
-
-width: 556px;
-font-size: 16px !important;
-
-	}
-
-
-
-	.db-fourth{
-	margin-top: -9px !important;
-margin-left: 29px !important;
-	a{
-	width: 290px;
-	font-size: 15px !important;
-	}
-}
-
-.db-count-two{
-	.db-play{
-margin-left: 39px;
-padding:150px 0px !important;
-border-radius: 52px !important;
-	img{
-margin-top: 30px !important;
-width:150px !important;
-height:150px !important;
-	}
-}
-}
 
 .db-all-yourcar{
 	padding: 100px 0;
@@ -356,6 +335,97 @@ height:150px !important;
 
 @media only screen and (min-width : 1248px) {
 	
+.db-all-count{
+	background-color: #28272e;
+	color:#fff;
+	text-align: left;
+	font-family: "OpenSans-Regular";
+	padding:150px 0px;
+	width: 1190px;
+	margin: 0 auto;
+
+	.db-count-one{
+		padding:20px 20px;
+		float:left;
+		width:514px;
+
+		.db-appeal{
+			.db-apple-h2{
+				margin-bottom: 62px;
+				font-size: 36px;
+				text-align: center;
+			}
+		}
+		.db-lorem{
+			padding-bottom:65px;
+			line-height: 30px;
+			font-size:14px;
+			margin: 0 auto;
+			text-align: left;
+		}
+		.db-fourth{
+			text-align: center;
+			margin-top:5px;	
+			padding-left: 28px;		
+			span{ 
+				padding: 3px 2px 3px 2px;
+				background-image: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+				border-radius:25px;
+				z-index: 1;
+				display: inline-block;
+				a{
+					font-family: "OpenSans-Regular";
+					color:white;
+					font-size:14px;
+					background-color: #28272e;
+					padding: 12px;
+					border-radius:25px;
+					z-index: 10;					
+					display: inline-block;
+					transition: all 0.5s;
+					letter-spacing: 0.15em;
+					padding: 12px 37px;
+					
+				}	
+				a:hover{
+					background: linear-gradient(to right, #ef2e31 0%, #fec337 100%);
+					transition: all 0.5s;
+				}
+			} 	 	 
+		}
+	}
+	.db-count-two{
+		margin-top: 26px !important;
+		float:right;
+padding: 0px;
+width: 584px;
+height: 465px;
+margin:0 auto;
+	
+		.db-play{
+			
+	
+		margin: 0 auto;
+		background-color: #1e1d22;
+		border-radius: 20px;
+		height: 100%;
+			.db-play-count{
+				background-image: url('../img/play.png');
+				background-size: cover;
+				width: 158px;
+				height: 159px;
+				margin: 17px 237px;
+			}
+			.db-play-count:hover{
+				background-image: url('../img/play2.png');
+				background-size: cover;
+				width: 158px;
+				height: 159px;
+				margin: 17px 237px;	
+			}
+		} 
+	}
+}
 
 
 
